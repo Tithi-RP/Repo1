@@ -10,4 +10,4 @@ $params = [
 
 $url .= "?" . http_build_query($params);
 
-echo '<a href="'.$url.'">Connect with GitHub</a>';
+echo '<a href="' . $url . '">Connect with GitHub</a>';
