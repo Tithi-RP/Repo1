@@ -7,6 +7,7 @@ $params = [
    'scope' => 'repo read:org read:user user:email read:project',
    'state' => '134567'
 ];
+
 $url .= "?" . http_build_query($params);
 
 echo '<a href="'.$url.'">Connect with GitHub</a>';
